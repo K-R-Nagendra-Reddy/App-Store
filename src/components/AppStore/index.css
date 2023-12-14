@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #fff1eb;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+.heading {
+  color: #000000;
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+.tabs-container {
+  background-color: transparent;
+}
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+.app-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+.search-icon {
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border-right: 1px #7b8794;
+  border-bottom: 1px #7b8794;
+  border-top: 1px #7b8794;
+}
+.input-search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
